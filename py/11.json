@@ -1,0 +1,214 @@
+
+{
+      "lives": [
+        {
+      "name": "订阅",
+      "type": 0,
+      "url": "./plugin/xx/传媒.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15"
+        }
+  ],
+
+"spider": "./spider.jar;md5;6286b095a005799c81f27da197beb39f",
+  "sites": [
+    {
+      "key": "随机",
+      "name": "随机",
+      "type": 3,
+      "api": "./plugin/xx/随机小姐姐.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "XBB",
+      "name": "XBB",
+      "type": 3,
+      "api": "./plugin/xx/javxbb.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "洋马",
+      "name": "洋马",
+      "type": 3,
+      "api": "./plugin/xx/洋马.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "色播",
+      "name": "色播",
+      "type": 3,
+      "api": "./plugin/xx/py_色播聚合.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "吸瓜",
+      "name": "吸瓜",
+      "type": 3,
+      "api": "./plugin/xx/51吸瓜.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "SYS",
+      "name": "SYS",
+      "type": 3,
+      "api": "./plugin/xx/DSYS.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "LAV",
+      "name": "LAV",
+      "type": 3,
+      "api": "./plugin/xx/lavAPP.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "红薯",
+      "name": "红薯",
+      "type": 3,
+      "api": "./plugin/xx/小红薯APP.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "推特",
+      "name": "推特",
+      "type": 3,
+      "api": "./plugin/xx/推特APP.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+    }, 
+    {
+      "key": "一区",
+      "name": "一区",
+      "type": 3,
+      "api": "./plugin/xx/一区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "二区",
+      "name": "二区",
+      "type": 3,
+      "api": "./plugin/xx/二区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "三区",
+      "name": "三区",
+      "type": 3,
+      "api": "./plugin/xx/三区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "四区",
+      "name": "四区",
+      "type": 3,
+      "api": "./plugin/xx/四区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "六区",
+      "name": "六区",
+      "type": 3,
+      "api": "./plugin/xx/六区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "八区",
+      "name": "八区",
+      "type": 3,
+      "api": "./plugin/xx/八区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+    {
+      "key": "九区",
+      "name": "九区",
+      "type": 3,
+      "api": "./plugin/xx/九区.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style":{
+          "type": "rect",
+          "ratio": 1.5
+      }
+    },
+	{
+		"key": "美女",
+		"name": "美女",
+		"type": 0,
+		"api": "https://www.msnii.com/api/xml.php",
+		"searchable": 1,
+		"quickSearch": 1
+	},
+	{
+      "key": "好色",
+      "name": "好色",
+      "type": 3,
+      "api": "./plugin/xx/好色.py",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
+	}
+    
+  ],
+  "parses": [
+
+    {
+      "name": "qiyun",
+      "type": 1,
+      "url": "http://47.94.109.119:6868/jxxx/juhe.php?url="
+    }
+  ]
+}
